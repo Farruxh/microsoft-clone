@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navitems{
+    @apply hidden md:block cursor-pointer hover:underline hover:underline-offset-8
+}
+.backto{
+    @apply bg-gray-300 text-black p-2 rounded mt-3 mb-24 font-bold w-36 cursor-pointer hover:bg-white hover:border hover:border-b-2 hover:border-t-0
+}
